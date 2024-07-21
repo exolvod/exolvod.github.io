@@ -1,0 +1,20 @@
+id: "services"
+
+content:
+  title: "Our Main Services"
+  text: "Exolvo provides comprehensive solutions designed to enhance operational efficiency and drive innovation in your business."
+
+  cards:
+    - image: "images/services-web-development.png"
+      title: "AI Solutions"
+      text: "We offer cutting-edge AI solutions, including our LLM Lab and RCC Copilot, to optimize your data processing and tactical coordination."
+      button:
+        label: "Learn more"
+        url: "/products/ai-solutions/"
+
+    - image: "images/services-web-development.png"
+      title: "Engineering Services"
+      text: "Our engineering services cover a wide range of technical and operational needs, ensuring your projects run smoothly and effectively."
+      button:
+        label: "Learn more"
+        url: "//products/engineering-services/"

@@ -1,0 +1,35 @@
+<footer class="shared footer bg-blue-light py-5">
+  <div class="container">
+    <div class="row pb-5">
+      <div class="col-12 col-xl-4 text-center text-xl-start pb-4">
+        <h4 class="fs-4 fw-semibold text-uppercase text-primary">{{ .Site.Title }}</h4>
+        <p class="small text-black-61">{{ .Site.Params.description }}</p>
+      </div>
+      <div class="col-12 col-xl-2 text-center text-xl-start pb-4">
+        <ul class="list-unstyled">
+          {{ range .Site.Menus.footer }}
+            {{ if eq .Identifier "about" }}
+              <li>
+                <a class="fs-6 fw-semibold text-primary text-decoration-none" href="{{ .URL }}">{{ .Name }}</a>
+              </li>
+            {{ end }}
+          {{ end }}
+        </ul>
+      </div>
+      <div class="col-12 col-xl-3 text-center text-xl-start pb-4">
+        <ul class="list-unstyled">
+          <li>
+            <a class="fs-6 fw-semibold text-primary text-decoration-none" href="mailto:yourbusiness@example.com">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <p class="small text-black-61 text-center">© 2021 Exolvo. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+

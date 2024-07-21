@@ -1,0 +1,50 @@
+baseURL: "https://www.ExolvoD.com/"
+languageCode: "en-us"
+title: "Exolvo"
+theme: "up-business-theme"
+DefaultContentLanguage: "en"
+
+params:
+  description: "Reliability When Every Second Counts."
+  author: "Exolvo"
+  dateFormat: "2006-01-02"
+  favicon: "/img/fav.ico"
+  showMenu: true
+  showRSSButton: false
+  fadeIn: true
+  fadeInIndex: false
+  customCSS: ["css/custom.css"]  # Ensure this is included
+  email: "yourbusiness@example.com"
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: "/"
+      weight: 1
+    - identifier: about
+      name: About Us
+      url: "/about/"
+      weight: 2
+    - identifier: products
+      name: Products
+      url: "/products/"
+      weight: 3
+  footer:
+    - identifier: about
+      name: About Us
+      url: "/about/"
+      weight: 1
+    - identifier: contact
+      name: Contact Us
+      url: "mailto:yourbusiness@example.com"
+      weight: 2
+
+
+social:
+  - name: Email
+    url: "mailto:yourbusiness@example.com"
+
+services:
+  googleAnalytics:
+    id: "UA-12345678-1"

@@ -1,0 +1,15 @@
+enabled: true
+id: "portfolio"
+
+content:
+  - image: "images/portfolio-ecommerce.png"
+    pretitle: "Portfolio"
+    title: "Custom Applications with Data Security & Control"
+    text: "Exolvo brings great tech to anyone with custom applications that ensure data security and control. Our solutions help with real-time data analytics, offering affordable, tailored services to meet your needs."
+
+    buttons: 
+      - label: "See Live"
+        url: "#"
+
+      - label: "Read More"
+        url: "#"
