@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Products on Exolvo</title>
+    <link>http://localhost:1313/products/</link>
+    <description>Recent content in Products on Exolvo</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/products/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Consulting Services</title>
+      <link>http://localhost:1313/products/consult-solutions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/consult-solutions/</guid>
+      <description>Exolvo provides expert consulting services to help you optimize your IT infrastructure and operations. Our consultants offer strategic advice and practical solutions to enhance your technological capabilities and support your business goals.&#xA;Our Consulting Services IT Infrastructure Optimization: Enhancing the efficiency and reliability of your IT systems. Strategic Planning: Providing insights and strategies to align technology with business objectives. Technical Advisory: Offering expert advice on technology adoption, integration, and management. At Exolvo, our goal is to provide you with the knowledge and tools needed to achieve success.</description>
+    </item>
+    <item>
+      <title>Custom AI Solutions</title>
+      <link>http://localhost:1313/products/ai-solutions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/ai-solutions/</guid>
+      <description>At Exolvo, our custom AI solutions are designed to meet the unique needs of your business. We specialize in a variety of capabilities to ensure optimal performance and efficiency.&#xA;Capabilities Agents Enable LLMs to execute functions and interact with any application:&#xA;Text to SQL/NoSQL query Parsing text into JSON Data analytics Retrieval-Augmented Generation (RAG) Make any data source searchable and compatible with your language models, including:&#xA;PDFs Websites Images Videos Excel files SQL databases (PostgreSQL) Graph databases (Neo4j, Cypher) Vision Models Utilize OCR for parsing documents (typed or handwritten) and reasoning over images:</description>
+    </item>
+    <item>
+      <title>Engineering Solutions</title>
+      <link>http://localhost:1313/products/engineering-solutions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/engineering-solutions/</guid>
+      <description>At Exolvo, we provide a comprehensive suite of engineering services designed to support the development and maintenance of your applications. Our expertise spans Full Stack Development, DevOps, MLOps, and InfoSec, ensuring robust and scalable solutions for your business needs.&#xA;We also ensure the smooth operation and maintenance of your systems through our comprehensive technical support services. Our goal is to minimize downtime and maximize productivity by addressing any technical issues promptly.</description>
+    </item>
+  </channel>
+</rss>

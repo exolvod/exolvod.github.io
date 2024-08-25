@@ -1,0 +1,15 @@
+.service-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Make sure cards fill the container */
+  }
+  
+  .service-card-content {
+    flex: 1;  /* Allows the content to expand and fill the available space */
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+  .service-card button {
+    margin-top: auto; /* Pushes the button to the bottom of the card */
+  }
+  

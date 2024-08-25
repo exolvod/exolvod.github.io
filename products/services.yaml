@@ -1,0 +1,26 @@
+id: "services"
+
+content:
+  title: "Our Services"
+  text: "Exolvo provides comprehensive solutions designed to enhance operational efficiency and drive innovation in your business."
+
+  cards:
+    - image: "images/artificial-intelligence-1-33.svg"
+      title: "Custom AI Solutions"
+      text: "We offer cutting-edge AI solutions, including custom LLM development, agent orchestration, and copilots to optimize your data processing and tactical coordination for your concept of operations (CON OPS) needs through comprehensive software solutions and hardware integrations."
+      button:
+        label: "Learn more"
+        url: "/products/ai-solutions/"
+
+    - image: "images/coding-58.svg"
+      title: "Engineering Services"
+      text: "We provide a comprehensive suite of engineering services designed to support the development and maintenance of your applications. Our expertise spans Full Stack Development, DevOps, MLOps, and Information Security, ensuring robust and scalable solutions for your business needs."
+      button:
+        label: "Learn more"
+        url: "/products/engineering-solutions/"
+    - image: "images/procket.png"
+      title: "Consulting Services"
+      text: "Our technical consulting services specialize in engineering and AI, offering tailored solutions to enhance your project's execution, delivery, and realization. We ensure technical excellence and operational efficiency throughout your project lifecycle."
+      button:
+        label: "Learn more"
+        url: "/products/consult-solutions/"
