@@ -1,11 +1,11 @@
-baseURL: "https://www.ExolvoD.com/"
+baseURL: "https://ExolvoD.io/"
 languageCode: "en-us"
 title: "Exolvo"
 theme: "up-business-theme"
 DefaultContentLanguage: "en"
 
 params:
-  description: "Reliability When Every Second Counts."
+  description: "Bringing Software Engineering to ML Deployments."
   author: "Exolvo"
   dateFormat: "2006-01-02"
   favicon: "/img/fav.ico"
@@ -13,8 +13,8 @@ params:
   showRSSButton: false
   fadeIn: true
   fadeInIndex: false
-  customCSS: ["css/custom.css"]  # Ensure this is included
-  email: "yourbusiness@example.com"
+  customCSS: ["css/custom.css"]
+  email: "admin@exolvo.io"
 
 menu:
   main:
@@ -37,14 +37,14 @@ menu:
       weight: 1
     - identifier: contact
       name: Contact Us
-      url: "mailto:yourbusiness@example.com"
+      url: "/contact-form.html"
       weight: 2
-
-
+      
 social:
   - name: Email
-    url: "mailto:yourbusiness@example.com"
+    url: "/contact-form.html"
 
-services:
-  googleAnalytics:
-    id: "UA-12345678-1"
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

@@ -2,8 +2,8 @@ enabled: true
 id: "cta"
 
 content:
-  title: "Elevate your business now!"
-  image: "images/services-web-development.png"
+  title: "Augment your business now!"
+  image: "/images/procket.png"
   button:
     label: "Let's talk"
-    url: "mailto:yourbusiness@example.com"
+    url: "/contact-form.html"

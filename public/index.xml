@@ -8,25 +8,18 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About Us</title>
+      <title></title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>Exolvo: Reliability When Every Second Counts&#xA;At Exolvo, we specialize in providing cutting-edge solutions in satellite communications, tactical coordination, and software development. Our team of experts is dedicated to creating resilient and innovative software that meets the dynamic needs of our clients.&#xA;Goals We aim to push the boundaries of technology to deliver solutions that enhance efficiency and reliability. Our goal is to support our clients in achieving their objectives by providing top-notch software solutions and unparalleled technical support.</description>
+      <description>&lt;!DOCTYPE html&gt; About Us - Exolvo About Exolvo Bringing Software Engineering to Machine Learning Deployments At Exolvo, we specialize in providing cutting-edge solutions in Artificial Intelligence, Engineering, and Consulting services geared toward tactical coordination. Our team of experts is dedicated to creating resilient and innovative products that meet the dynamic needs of our clients.&#xA;Goals We aim to push the boundaries of technology to deliver solutions that enhance efficiency and reliability.</description>
     </item>
     <item>
-      <title>Home</title>
-      <link>http://localhost:1313/home/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/home/</guid>
-      <description>Exolvo Reliability When Every Second Counts About Us Exolvo is dedicated to providing advanced tactical coordination software solutions. We ensure reliability and efficiency in every second of operation.&#xA;Our Products RCC Copilot RCC Copilot is designed for seamless tactical coordination, ensuring your team operates efficiently and effectively. Learn More&#xA;LLM Lab LLM Lab offers advanced solutions for tactical coordination, leveraging the latest in software technology. Learn More&#xA;Contact Us For more information, feel free to reach out to us.</description>
-    </item>
-    <item>
-      <title>Products</title>
+      <title></title>
       <link>http://localhost:1313/products/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/products/</guid>
-      <description>Our Products AI Solutions Our AI Solutions offer cutting-edge tools designed to enhance tactical coordination and data processing capabilities.&#xA;Engineering Services We provide comprehensive engineering services to support your technical and operational needs.</description>
+      <description>&lt;!DOCTYPE html&gt; Products - Exolvo Exolvo Products Bringing Software Engineering to ML Deployments&#xA;Explore our innovative solutions crafted to enhance your business operations. Our tools and services are designed to bring precision and efficiency, enabling your team to achieve outstanding results with cutting-edge technology. Dive into our range of offerings to find exactly what your business needs to thrive in a competitive landscape.&#xA;Learn More Engineering Services We offer a wide range of engineering services to help you build and maintain your applications, including Full Stack Development, DevOps, MLOps, and InfoSec.</description>
     </item>
   </channel>
 </rss>

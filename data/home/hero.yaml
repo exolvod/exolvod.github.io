@@ -2,8 +2,8 @@ enabled: true
 id: "hero"
 
 content:
-  title: "Reliability When Every Second Counts."
-  text: "At Exolvo, we provide state-of-the-art AI Solutions and Engineering Services designed to optimize and streamline your operations."
+  title: "Bringing Software Engineering to ML Deployments."
+  text: "At Exolvo, we provide state-of-the-art Engineering Services and AI Solutions designed to optimize and streamline your operations."
 
   buttonPrimary:
     label: "Our Services"
@@ -11,5 +11,7 @@ content:
 
   buttonSecondary:
     label: "Contact Us"
-    url: "mailto:yourbusiness@example.com"
+    url: "/contact-form.html"
+
+
 
