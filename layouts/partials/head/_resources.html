@@ -1,0 +1,12 @@
+<!-- Load Shared SCSS -->
+{{ $sharedSCSSResource := resources.Get "scss/shared/shared.scss" }}
+{{ $sharedCSS := $sharedSCSSResource | resources.ToCSS (dict "outputStyle" "compressed" "includePaths" (slice "assets")) }}
+{{ $sharedCSS := $sharedCSS | resources.ExecuteAsTemplate "main.scss" . }}
+
+<!-- Load Shared JS -->
+{{ $sharedJSResource := resources.Get "js/shared/shared.js" }}
+{{ $sharedJS := $sharedJSResource | js.Build (dict "minify" true) }}
+
+<!-- Include the processed CSS and JS -->
+<style type="text/css">{{ $sharedCSS.Content | safeCSS }}</style>
+<script>{{ $sharedJS.Content | safeJS }}</script>
