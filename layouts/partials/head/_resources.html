@@ -5,7 +5,8 @@
   <style type="text/css" media="all">{{ $sharedCSS.Content | safeCSS }}</style>
 {{- end -}}
 
-<!-- Load Shared JS -->
-{{- $sharedJSResource := resources.Get "js/shared/shared.js" -}}
-{{- $sharedJS := $sharedJSResource | js.Build (dict "minify" "true") -}}
-<script>{{ $sharedJS.Content | safeJS }}</script>
+<!-- Load Shared JS (if exists) -->
+{{- with resources.Get "js/shared/shared.js" -}}
+  {{- $sharedJS := . | js.Build (dict "minify" true) -}}
+  <script>{{ $sharedJS.Content | safeJS }}</script>
+{{- end -}}

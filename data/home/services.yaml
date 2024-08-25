@@ -14,14 +14,14 @@ content:
 
     - image: "images/coding-58.svg"
       title: "Engineering Services"
-      text: "We provide a comprehensive suite of engineering services designed to support the development and maintenance of your applications. Our expertise spans Full Stack Development, DevOps, MLOps, and Information Security, ensuring robust and scalable solutions for your business needs.<br><br><br>"
+      text: "We provide a comprehensive suite of engineering services designed to support the development and maintenance of your applications. Our expertise spans Full Stack Development, DevOps, MLOps, and Information Security, ensuring robust and scalable solutions for your business needs."
       button:
         label: "Learn more"
         url: "/products/engineering-solutions/"
 
     - image: "images/procket.png"
       title: "Consulting Services"
-      text: "Our technical consulting services specialize in engineering and AI, offering tailored solutions to enhance your project's execution, delivery, and realization. We ensure technical excellence and operational efficiency throughout your project lifecycle.<br><br>"
+      text: "Our technical consulting services specialize in engineering and AI, offering tailored solutions to enhance your project's execution, delivery, and realization. We ensure technical excellence and operational efficiency throughout your project lifecycle."
       button:
         label: "Learn more"
         url: "/products/consult-solutions/"
