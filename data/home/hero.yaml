@@ -1,0 +1,15 @@
+enabled: true
+id: "hero"
+
+content:
+  title: "Bringing Software Engineering to ML Deployments."
+  text: "At Exolvo, we provide state-of-the-art Engineering Services and AI Solutions designed to optimize and streamline your operations."
+
+  buttonPrimary:
+    label: "Our Services"
+    url: "/products/"
+
+  buttonSecondary:
+    label: "Contact Us"
+    url: "/contact-form.html"
+

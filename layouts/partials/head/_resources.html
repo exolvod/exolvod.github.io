@@ -1,0 +1,12 @@
+<!-- Load Shared SCSS (if exists) -->
+{{- $sharedSCSSResource := resources.Get "scss/shared/shared.scss" | default (resources.Get "scss/main.scss") -}}
+{{- if $sharedSCSSResource -}}
+  {{- $sharedCSS := $sharedSCSSResource | resources.ToCSS (dict "outputStyle" "compressed") -}}
+  <style type="text/css" media="all">{{ $sharedCSS.Content | safeCSS }}</style>
+{{- end -}}
+
+<!-- Load Shared JS (if exists) -->
+{{- with resources.Get "js/shared/shared.js" -}}
+  {{- $sharedJS := . | js.Build (dict "minify" true) -}}
+  <script src="{{ $sharedJS.Permalink | relURL }}">{{ $sharedJS.Content | safeJS }}</script>
+{{- end -}}

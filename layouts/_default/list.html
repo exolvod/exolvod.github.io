@@ -1,0 +1,28 @@
+{{ define "main" }}
+<main class="container">
+  <header>
+    <h1>{{ .Title }}</h1>
+  </header>
+  
+  {{ if .Params.description }}
+    <p>{{ .Params.description }}</p>
+  {{ end }}
+
+  {{ if .IsHome }}
+    <p>Welcome to the homepage!</p>
+  {{ end }}
+
+  {{ range .Pages }}
+    <article>
+      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      {{ if .Params.date }}
+        <p><time datetime="{{ .Date }}">{{ .Date.Format "July 2, 2024" }}</time></p>
+      {{ end }}
+      <p>{{ .Summary }}</p>
+    </article>
+    <hr>
+  {{ end }}
+
+  {{ partial "pagination.html" . }}
+</main>
+{{ end }}

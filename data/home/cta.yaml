@@ -1,0 +1,9 @@
+enabled: true
+id: "cta"
+
+content:
+  title: "Augment your business now!"
+  image: "/images/logop1.png"
+  button:
+    label: "Let's talk"
+    url: "/contact-form.html"

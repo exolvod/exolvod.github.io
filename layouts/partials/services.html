@@ -1,0 +1,10 @@
+<!-- Example Service Card Structure -->
+<div class="service-card">
+    <img src="{{ .Site.BaseURL }}{{ .image }}" alt="Service Image">
+    <div class="service-card-content">
+      <h3>{{ .title }}</h3>
+      <p>{{ .text }}</p>
+      <a href="{{ .button.url }}" class="btn">{{ .button.label }}</a>
+    </div>
+  </div>
+  

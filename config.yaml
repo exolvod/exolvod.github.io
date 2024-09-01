@@ -1,0 +1,71 @@
+baseURL: "https://exolvod.github.io/"
+languageCode: "en-us"
+title: "Exolvo"
+theme: "up-business-theme"
+DefaultContentLanguage: "en"
+
+# googleAnalytics: ""
+
+summaryLength: 20
+
+params:
+  title: "Exolvo"
+  description: "Bringing Software Engineering to ML Deployments."
+  images: 
+    - "images/hero-image.png"
+
+  logo: "logop1.png"
+
+  favicons:
+    themeColor: "#FFFFFF"
+    backgroundColor: "#FFFFFF"
+    faviconColor: "#000000"
+
+  social:
+    linkedin: "#"
+
+  contact:
+    - email: "admin@exolvo.io"
+
+  copyright: "© 2021 Exolvo. All rights reserved."
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: "/"
+      weight: 1
+    - identifier: about
+      name: About Us
+      url: "/about/"
+      weight: 2
+    - identifier: products
+      name: Products
+      url: "/products/"
+      weight: 3
+
+  buttons:
+    - name: "Book a call"
+      url: "/contact-form.html"
+      weight: 5
+      pre: "btn btn-primary text-light"
+
+  footer:
+    - identifier: about
+      name: About Us
+      url: "/about/"
+      weight: 1
+    - identifier: contact
+      name: Contact Us
+      url: "/contact-form.html"
+      weight: 2
+
+taxonomies:
+  series: "series"
+  tags: "tags"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+

@@ -1,0 +1,20 @@
+{{ define "main" }}
+<main class="container">
+  <header>
+    <h1>{{ .Title }}</h1>
+  </header>
+
+  <ul>
+    {{ range .Pages }}
+      <li>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        {{ if .Date }}
+          <span> - {{ .Date.Format "July 2, 2024" }}</span>
+        {{ end }}
+      </li>
+    {{ end }}
+  </ul>
+  
+  {{ partial "pagination.html" . }}
+</main>
+{{ end }}
