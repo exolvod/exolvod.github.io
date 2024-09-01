@@ -69,3 +69,5 @@ markup:
     renderer:
       unsafe: true
 
+canonifyURLs: true
+relativeURLs: true
