@@ -22,7 +22,7 @@ content:
 
     - image: "images/procket.png"
       title: "Consulting Services"
-      text: "Our technical consulting services specialize in engineering and AI, offering tailored solutions to enhance your project's execution, delivery, and realization. We ensure technical excellence and operational efficiency throughout your project lifecycle."
+      text: " Our technical consulting services specialize in engineering and artificial intelligence, offering tailored solutions to enhance your project's execution, delivery, and realization. We work closely with you to ensure technical excellence and operational efficiency throughout your project lifecycle."
       button:
         label: "Learn more"
         url: "/products/consult-solutions/"

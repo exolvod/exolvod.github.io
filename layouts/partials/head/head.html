@@ -1,24 +1,23 @@
 <head>
-    <!-- Title -->
-    <title>{{ .Site.Title }} {{ with .Title }} | {{ . }} {{ end }}</title>
-  
-    <!-- Meta -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-    <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{end}}" />
-  
-    <!-- Favicons and Manifest -->
-    {{ partial "head/_favicons.html" . }}
-  
-    <!-- SEO: Google Analytics 
-    {{ partial "head/_seo.html" . }}-->
-  
-    <!-- Stylesheets and Javascript-->
-    {{ partial "head/_resources.html" . }}
-  
-    <!-- RSS -->
-    {{ range .AlternativeOutputFormats -}}
-      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-    {{ end -}}
-  </head>
+  <title>{{ .Site.Title }} {{ with .Title }} | {{ . }} {{ end }}</title>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{end}}" />
+
+  <!-- Direct Favicon Reference -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/logop1.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/logop1.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/logop1.png">
+  <link rel="shortcut icon" href="/images/logop1.png">
+
+  <!-- Stylesheets and Javascript-->
+  {{ partial "head/_resources.html" . }}
+
+  <!-- RSS -->
+  {{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
+</head>
+
   

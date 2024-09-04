@@ -14,9 +14,10 @@ params:
   images: 
     - "images/hero-image.png"
 
-  logo: "logop1.png"
+  logo: "images/logop1.png"
 
   favicons:
+    logo: "images/logop1.png"
     themeColor: "#FFFFFF"
     backgroundColor: "#FFFFFF"
     faviconColor: "#000000"
