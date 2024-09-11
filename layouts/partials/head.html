@@ -30,6 +30,13 @@
   {{ range .AlternativeOutputFormats -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}} -->
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/logop1.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/logop1.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/logop1.png">
+  <link rel="shortcut icon" href="/images/logop1.png">
+  <link rel="icon" href="{{ "/images/logop1.png" | relURL }}" type="image/png">
+
 </head>
 
 

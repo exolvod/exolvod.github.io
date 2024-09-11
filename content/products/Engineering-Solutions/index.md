@@ -20,6 +20,8 @@ title: "Engineering Solutions"
         font-size: 18px;
         color: #4C4F65;
         margin-bottom: 40px; /* Space after the intro text */
+        text-align: center;
+        font-weight: 520;
     }
 
     .intro-text h3 {
@@ -43,7 +45,10 @@ title: "Engineering Solutions"
         border-radius: 5px;
         margin-bottom: 5px;
     }
-
+    
+    .p{
+        text-align: center;
+    }
     .service-title:hover {
         background-color: #5a4dbd; /* Darker purple on hover */
     }
@@ -55,6 +60,7 @@ title: "Engineering Solutions"
         overflow: hidden;
         transition: max-height 0.3s ease-out;
         border-radius: 5px;
+        text-align: center;
     }
 
     .service-content img {
@@ -139,4 +145,6 @@ title: "Engineering Solutions"
     });
 </script>
 
-Exolvo is dedicated to providing reliable and efficient engineering and support services. Contact us today to learn how we can support your business needs.
+ <div class="service-content" style="max-height: none; padding: 20px; background-color: #F7D09B;">
+   <p>Exolvo is dedicated to providing reliable and efficient engineering and support services. <a href="/contact-form.html" style="color: inherit; text-decoration: underline;">Contact us</a> today to learn how we can support your business needs.</p>
+</div>

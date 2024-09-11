@@ -160,8 +160,8 @@ title: "Custom AI Solutions"
     </div>
   <!-- Footer Text Section -->
   
-  <div class="service-content" style="max-height: none; padding: 20px; background-color: #CBC3E3;">
-   <p class="paragraph">Contact us today to learn how our custom AI solutions can enhance your business operations and drive innovation.</p>
+  <div class="service-content" style="max-height: none; padding: 20px; background-color: #F7D09B;">
+   <p class="paragraph"><a href="/contact-form.html" style="color: inherit; text-decoration: underline;">Contact us</a>  today to learn how our custom AI solutions can enhance your business operations and drive innovation.</p>
   </div>
 </div>
 </div> 

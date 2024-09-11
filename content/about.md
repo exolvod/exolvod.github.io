@@ -138,7 +138,7 @@
         justify-content: center;
     }
     footer {
-        background-color: #DCEBFE;
+        background-color: #F7D09B;
         color: white;
         text-align: center;
         padding: 20px;

@@ -21,9 +21,10 @@ title: "Consulting Services"
     }
 
     .intro-text {
-        font-size: 18px;
+        font-size: 20px;
         color: #4C4F65;
         margin-bottom: 40px; /* Space after the intro text */
+        text-align: center;
     }
 
     .intro-text h3 {
@@ -87,25 +88,45 @@ title: "Consulting Services"
 <div class="services-section">
     <img src="/images/conult33.png" alt="Consulting Services Header Image" class="circle-image"> 
     <div class="intro-text">
-        <p>Exolvo provides expert consulting services to help you optimize your IT infrastructure and operations. Our consultants offer strategic advice and practical solutions to enhance your technological capabilities and support your business goals.</p>
+        <p>Exolvo delivers expert consulting services that empower businesses to optimize their IT infrastructure and streamline their operations. Our consultants offer strategic advice and practical solutions to enhance your technological capabilities and support your business goals.</p>
         <h3>Our Consulting Services</h3>
     </div>
-    <button class="service-title">IT Infrastructure Optimization</button>
-    <div class="service-content">
-        <p>Enhancing the efficiency and reliability of your IT systems.</p>
-    </div>
-    <button class="service-title">Strategic Planning</button>
-    <div class="service-content">
-        <p>Providing insights and strategies to align technology with business objectives.</p>
-    </div>
+    <div class="services-section">
+    <!-- Technical Advisory -->
     <button class="service-title">Technical Advisory</button>
     <div class="service-content">
-        <p>Offering expert advice on technology adoption, integration, and management.</p>
+        <p>Our technical advisors keep you informed about the latest technological advancements, offering recommendations on cloud integration, data management, and software development practices.</p>
     </div>
+    <!-- Cloud Strategy Consulting -->
+    <button class="service-title">Cloud Strategy Consulting</button>
     <div class="service-content">
-        <p>At Exolvo, our goal is to provide you with the knowledge and tools needed to achieve success. Contact us today to learn more about our consulting services.</p>
+        <p>We offer personalized strategies for cloud adoption and optimization, ensuring your cloud environment supports business growth and performance.</p>
+    </div>
+    <!-- IT Infrastructure Optimization -->
+    <button class="service-title">IT Infrastructure Optimization</button>
+    <div class="service-content">
+        <p>We assess your current IT environment and provide solutions for network optimization, hardware upgrades, and virtual machine management. Our cloud migration services help ensure your infrastructure is scalable and future-proof.</p>
+    </div>
+    <!-- Strategic Planning -->
+    <button class="service-title">Strategic Planning</button>
+    <div class="service-content">
+        <p>We help align your IT initiatives with business goals through a strategic roadmap that integrates new technologies and optimizes your tech investments for long-term success.</p>
+    </div>
+    <!-- Database Management and Data Pipelines -->
+    <button class="service-title">Database Management and Data Pipelines</button>
+    <div class="service-content">
+        <p>Our expertise includes database design and management, as well as building data pipelines that streamline data flow and enable analytics for better decision-making.</p>
+    </div>
+    <!-- System Maintenance and Support -->
+    <button class="service-title">System Maintenance and Support</button>
+    <div class="service-content">
+        <p>We offer strategic advice on technical support and system maintenance processes. Our consulting ensures that your IT team is equipped to handle system updates, troubleshoot issues, and keep your infrastructure running smoothly.</p>
     </div>
 </div>
+
+
+</div>
+
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
@@ -123,4 +144,10 @@ title: "Consulting Services"
         });
     });
 </script>
+
+ 
+ 
+ <div class="service-content" style="max-height: none; padding: 20px; background-color: #F7D09B;">
+   <p>At Exolvo, we equip you with the knowledge and tools necessary for success in today’s digital landscape. <a href="/contact-form.html" style="color: inherit; text-decoration: underline;">Contact us</a>  today to explore how our consulting services can augment your business.</p>
+</div>
 

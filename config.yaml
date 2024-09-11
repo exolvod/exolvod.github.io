@@ -16,6 +16,8 @@ params:
 
   logo: "images/logop1.png"
 
+  favicon: /favicon.ico
+  
   favicons:
     logo: "images/logop1.png"
     themeColor: "#FFFFFF"
@@ -41,7 +43,7 @@ menu:
       url: "/about/"
       weight: 2
     - identifier: products
-      name: Products
+      name: Services
       url: "/products/"
       weight: 3
 
